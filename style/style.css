@@ -68,6 +68,8 @@ h1 {
     font-weight: 700;
 }
 
-#border {
-    border-left: 10px solid tomato;
+#border1 {
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
